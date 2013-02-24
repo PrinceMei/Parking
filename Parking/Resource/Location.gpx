@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode"> 
+    
+    <pkpt lat="30.181239" lon="120.258536">
+        <name>国际商务中心</name>
+        <picture>point_gjswzx@2x.png</picture>
+        <bigPicture>pic_gjswzx@2x.png</bigPicture>
+        <desc>杭州萧山国际商务中心由两幢28层“双子塔楼”主体和四层裙楼组成，总建筑面积6万余平方米，总建筑高度达99.8米，是一座国际化品位特质的高级写字楼和现代商场为一体的大型建筑群，为萧山CBD新区标志性建筑。</desc>
+        <price>¥4/h</price>
+        <time>6:00-22:30</time>
+        <freeSpace>0</freeSpace>
+        <totalSpace>70</totalSpace>
+        <address>萧山金城路239号</address>
+        <promotions>停车包年即可提供廉价国际商务机票</promotions>
+	</pkpt>
+    
+    <pkpt lat="30.178299" lon="120.261927">
+        <name>恒隆广场</name>
+        <picture>point_hlgc@2x.png</picture>
+        <bigPicture>pic_hlgc@2x.png</bigPicture>
+        <desc>众安集团（00672HK）旗下商业地产旗舰品牌，由恒隆商厦有限公司经营管理。恒隆广场于2007年12月28日全面营业，她采用当今国际流行的业态结构：集国际品牌Holiday Inn 酒店、国际休闲购物广场、纯商务写字楼、酒店式公寓于一体，打造了杭城首个真正意义上shopping mall。恒隆广场成熟发展，是国际先进消费模式与萧山本地消费市场的一次大胆结合；更是商贸企业服务品质萧山的一次成功尝试。目前广场年销售额数亿元。</desc>
+        <price>¥3.5/h</price>
+        <time>7:00-22:00</time>
+        <freeSpace>10</freeSpace>
+        <totalSpace>44</totalSpace>
+        <address>山阴路与工人路交界</address>
+        <promotions>酒店豪华套房优惠9折,免费派送恒隆影院包月卡</promotions>
+	</pkpt>
+    
+    <pkpt lat="30.181888" lon="120.261648">
+        <name>人民广场</name>
+        <picture>point_rmgc@2x.png</picture>
+        <bigPicture>pic_rmgc@2x.png</bigPicture>
+        <desc>萧山人民广场很大，修的比较宏伟壮观，建筑物还是蛮吸引人的，绿化也不错，本来就处于萧山区的繁华地段，天气好的时候有很多人在广场附近散步拍照，小孩和老人应该是最多的了，春天的时候有很多人在这个广场放风筝，对住在附近的人来说散步和休闲的好地方。</desc>
+        <price>¥3.6/h</price>
+        <time>8:30-21:30</time>
+        <freeSpace>40</freeSpace>
+        <totalSpace>50</totalSpace>
+        <address>萧山区金城路心中路口</address>
+	</pkpt>
+    
+    <pkpt lat="30.179486" lon="120.261219">
+        <name>顺旺基</name>
+        <picture>point_swj@2x.png</picture>
+        <bigPicture>pic_swj@2x.png</bigPicture>
+        <desc>顺旺基源于中国宁波，是专业致力于中式快餐的连锁企业。自1998年江东顺旺记小吃街创业做起，至今已开设了近150多家连锁店，成为中国发展较快的现代快餐连锁企业。企业制定了实现第一品质、第一卫生、第一服务、第一价值的操作流程及标准，在实现“第一品牌战略”过程中将发挥至高作用。</desc>
+        <price>¥4.2/h</price>
+        <time>9:00-21:45</time>
+        <freeSpace>20</freeSpace>
+        <totalSpace>50</totalSpace>
+        <address>萧山工人路</address>
+	</pkpt>
+    
+    <pkpt lat="30.182528" lon="120.258386">
+        <name>太古广场</name>
+        <picture>point_tggc@2x.png</picture>
+        <bigPicture>pic_tggc@2x.png</bigPicture>
+        <desc>太古广场是集写字楼出租和单身公寓为一体的公寓楼，内部设备齐全，附近有大型商场，购物方便，有车库可以停车，绿化带好，空气新鲜，交通便利。</desc>
+        <price>¥4.5/h</price>
+        <time>10:00-22:30</time>
+        <freeSpace>22</freeSpace>
+        <totalSpace>44</totalSpace>
+        <address>萧山金城路451号</address>
+	</pkpt>
+    
+    <pkpt lat="30.182129" lon="120.254545">
+        <name>天汇苑</name>
+        <picture>point_thy@2x.png</picture>
+        <bigPicture>pic_thy@2x.png</bigPicture>
+        <desc>杭州萧山天汇商务酒店坐落在杭州繁华的商业和文化中心,萧山区,酒店拥有单人房、标准房、家庭房、豪华套房等各类房型73间。酒店任何位置都能享受免费无线上网冲浪的乐趣，酒店距杭州火车站约10分钟车程，距美丽的西子湖15分钟车程，距杭州萧山国际机场约20分钟车程。</desc>
+        <price>¥3.9/h</price>
+        <time>10:00-22:30</time>
+        <freeSpace>10</freeSpace>
+        <totalSpace>26</totalSpace>
+        <address>萧山区金城路411号天汇苑</address>
+	</pkpt>
+    
+    <pkpt lat="30.181972" lon="120.255725">
+        <name>沃尔玛</name>
+        <picture>point_wem@2x.png</picture>
+        <bigPicture>pic_wem@2x.png</bigPicture>
+        <desc>沃尔玛于1996年进入中国，在深圳开设了第一家沃尔玛购物广场和山姆会员商店。目前沃尔玛在中国经营多种业态和品牌，包括购物广场、山姆会员商店、社区店等，截至2012年3月1日，已经在全国21个省、4个直辖市的140个城市开设了370家商场，在全国创造了超过106，500个就业机会。</desc>
+        <price>¥4.2/h</price>
+        <time>10:00-23:30</time>
+        <freeSpace>40</freeSpace>
+        <totalSpace>100</totalSpace>
+        <address>萧山金城路249号</address>
+        <promotions>“一站式”购物“，优惠期间可凭购物小票免费停车</promotions>
+	</pkpt>
+    
+    <pkpt lat="30.181796" lon="120.258172">
+        <name>颐高广场</name>
+        <picture>point_yggc@2x.png</picture>
+        <bigPicture>pic_yggc@2x.png</bigPicture>
+        <desc>萧山颐高数码广场将整体迁入位于“萧山第一街”金城路451号的太古广场1-3层，这里是萧山中央商务区核心地段，毗邻萧山行政中心、文化中心、商业中心，附近有开元名都大酒店、世贸中心、恒隆广场等著名建筑。这里依托萧山地铁二号线与五号线交汇的核心枢纽人民广场站，周边交通便利，四通八达。无限商机，汇聚于此！</desc>
+        <price>¥5.5/h</price>
+        <time>8:30-22:30</time>
+        <freeSpace>5</freeSpace>
+        <totalSpace>70</totalSpace>
+        <address>萧山金城路109号</address>
+        <promotions>五一满100送鼠标键盘</promotions>
+	</pkpt>
+    
+    <pkpt lat="30.181109" lon="120.260210">
+        <name>中国移动</name>
+        <picture>point_zgyd@2x.png</picture>
+        <bigPicture>pic_zgyd@2x.png</bigPicture>
+        <desc>中国移动通信集团公司（简称“中国移动”）于2000年4月20日成立，是一家基于GSM和TD-SCDMA制式网络的移动通信运营商。中国移动通信集团公司是根据国家关于电信体制改革的部署和要求，在原中国电信移动通信资产总体剥离的基础上组建的国有骨干企业。</desc>
+        <price>¥4.5/h</price>
+        <time>9:00-21:30</time>
+        <freeSpace>21</freeSpace>
+        <totalSpace>30</totalSpace>
+        <address>萧山金城路与工人路口</address>
+	</pkpt>
+    
+</gpx>
