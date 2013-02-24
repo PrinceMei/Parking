@@ -2,8 +2,9 @@ Parking
 =======
 Parking 抢车位，学生作业
 
+Author:  
 [![image]](http://www.douban.com/people/slowslab/)  
-[image]: http://img3.douban.com/icon/ul66977260-27.jpg "漫实验室"  
+[image]: http://img3.douban.com/icon/u66977260-27.jpg "漫实验室"  
 <slowslab@gmail.com>  
 <http://www.douban.com/people/slowslab/>
 
