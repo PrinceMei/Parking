@@ -54,6 +54,11 @@
 		E1174736156E314E00D8054C /* pic_yggc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1174729156E314D00D8054C /* pic_yggc@2x.png */; };
 		E1174738156E327C00D8054C /* btn_tp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1174737156E327C00D8054C /* btn_tp@2x.png */; };
 		E117473E156E46EB00D8054C /* carme.png in Resources */ = {isa = PBXBuildFile; fileRef = E117473D156E46EA00D8054C /* carme.png */; };
+		E11B807B16EFFDA5001F2CDB /* GPX+ParkingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B807216EFFDA5001F2CDB /* GPX+ParkingPoint.m */; };
+		E11B807C16EFFDA5001F2CDB /* gpx-api.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B807416EFFDA5001F2CDB /* gpx-api.m */; };
+		E11B807D16EFFDA5001F2CDB /* gpx-reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B807616EFFDA5001F2CDB /* gpx-reader.m */; };
+		E11B807E16EFFDA5001F2CDB /* gpx-writer.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B807816EFFDA5001F2CDB /* gpx-writer.m */; };
+		E11B807F16EFFDA5001F2CDB /* ParkingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B807A16EFFDA5001F2CDB /* ParkingPoint.m */; };
 		E12487D815566C8800D1EB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12487D715566C8800D1EB99 /* UIKit.framework */; };
 		E12487DA15566C8800D1EB99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12487D915566C8800D1EB99 /* Foundation.framework */; };
 		E12487DC15566C8800D1EB99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12487DB15566C8800D1EB99 /* CoreGraphics.framework */; };
@@ -103,11 +108,6 @@
 		E1BAC92B156F79A700C9A744 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC904156F79A700C9A744 /* RootViewController.m */; };
 		E1BAC92C156F79A700C9A744 /* SuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC906156F79A700C9A744 /* SuggestViewController.m */; };
 		E1BAC92D156F79A700C9A744 /* DataEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC90A156F79A700C9A744 /* DataEnvironment.m */; };
-		E1BAC931156F79A700C9A744 /* GPX+ParkingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC914156F79A700C9A744 /* GPX+ParkingPoint.m */; };
-		E1BAC932156F79A700C9A744 /* gpx-api.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC916156F79A700C9A744 /* gpx-api.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E1BAC933156F79A700C9A744 /* gpx-reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC918156F79A700C9A744 /* gpx-reader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E1BAC934156F79A700C9A744 /* gpx-writer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC91A156F79A700C9A744 /* gpx-writer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E1BAC935156F79A700C9A744 /* ParkingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC91C156F79A700C9A744 /* ParkingPoint.m */; };
 		E1BAC936156F79A700C9A744 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC91F156F79A700C9A744 /* Utility.m */; };
 		E1BAC93C156F79BA00C9A744 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BAC937156F79BA00C9A744 /* HistoryCell.xib */; };
 		E1BAC93D156F79BA00C9A744 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BAC938156F79BA00C9A744 /* ListCell.xib */; };
@@ -242,6 +242,16 @@
 		E1174729156E314D00D8054C /* pic_yggc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_yggc@2x.png"; sourceTree = "<group>"; };
 		E1174737156E327C00D8054C /* btn_tp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_tp@2x.png"; sourceTree = "<group>"; };
 		E117473D156E46EA00D8054C /* carme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carme.png; sourceTree = "<group>"; };
+		E11B807116EFFDA5001F2CDB /* GPX+ParkingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPX+ParkingPoint.h"; sourceTree = "<group>"; };
+		E11B807216EFFDA5001F2CDB /* GPX+ParkingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GPX+ParkingPoint.m"; sourceTree = "<group>"; };
+		E11B807316EFFDA5001F2CDB /* gpx-api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-api.h"; sourceTree = "<group>"; };
+		E11B807416EFFDA5001F2CDB /* gpx-api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-api.m"; sourceTree = "<group>"; };
+		E11B807516EFFDA5001F2CDB /* gpx-reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-reader.h"; sourceTree = "<group>"; };
+		E11B807616EFFDA5001F2CDB /* gpx-reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-reader.m"; sourceTree = "<group>"; };
+		E11B807716EFFDA5001F2CDB /* gpx-writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-writer.h"; sourceTree = "<group>"; };
+		E11B807816EFFDA5001F2CDB /* gpx-writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-writer.m"; sourceTree = "<group>"; };
+		E11B807916EFFDA5001F2CDB /* ParkingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingPoint.h; sourceTree = "<group>"; };
+		E11B807A16EFFDA5001F2CDB /* ParkingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingPoint.m; sourceTree = "<group>"; };
 		E12487D315566C8800D1EB99 /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12487D715566C8800D1EB99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E12487D915566C8800D1EB99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -306,16 +316,6 @@
 		E1BAC908156F79A700C9A744 /* CONSTANTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
 		E1BAC909156F79A700C9A744 /* DataEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEnvironment.h; sourceTree = "<group>"; };
 		E1BAC90A156F79A700C9A744 /* DataEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataEnvironment.m; sourceTree = "<group>"; };
-		E1BAC913156F79A700C9A744 /* GPX+ParkingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPX+ParkingPoint.h"; sourceTree = "<group>"; };
-		E1BAC914156F79A700C9A744 /* GPX+ParkingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GPX+ParkingPoint.m"; sourceTree = "<group>"; };
-		E1BAC915156F79A700C9A744 /* gpx-api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-api.h"; sourceTree = "<group>"; };
-		E1BAC916156F79A700C9A744 /* gpx-api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-api.m"; sourceTree = "<group>"; };
-		E1BAC917156F79A700C9A744 /* gpx-reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-reader.h"; sourceTree = "<group>"; };
-		E1BAC918156F79A700C9A744 /* gpx-reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-reader.m"; sourceTree = "<group>"; };
-		E1BAC919156F79A700C9A744 /* gpx-writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gpx-writer.h"; sourceTree = "<group>"; };
-		E1BAC91A156F79A700C9A744 /* gpx-writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "gpx-writer.m"; sourceTree = "<group>"; };
-		E1BAC91B156F79A700C9A744 /* ParkingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingPoint.h; sourceTree = "<group>"; };
-		E1BAC91C156F79A700C9A744 /* ParkingPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingPoint.m; sourceTree = "<group>"; };
 		E1BAC91D156F79A700C9A744 /* SINGLETONGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINGLETONGCD.h; sourceTree = "<group>"; };
 		E1BAC91E156F79A700C9A744 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		E1BAC91F156F79A700C9A744 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
@@ -428,6 +428,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E11B807016EFFDA5001F2CDB /* gpxapi */ = {
+			isa = PBXGroup;
+			children = (
+				E11B807116EFFDA5001F2CDB /* GPX+ParkingPoint.h */,
+				E11B807216EFFDA5001F2CDB /* GPX+ParkingPoint.m */,
+				E11B807316EFFDA5001F2CDB /* gpx-api.h */,
+				E11B807416EFFDA5001F2CDB /* gpx-api.m */,
+				E11B807516EFFDA5001F2CDB /* gpx-reader.h */,
+				E11B807616EFFDA5001F2CDB /* gpx-reader.m */,
+				E11B807716EFFDA5001F2CDB /* gpx-writer.h */,
+				E11B807816EFFDA5001F2CDB /* gpx-writer.m */,
+				E11B807916EFFDA5001F2CDB /* ParkingPoint.h */,
+				E11B807A16EFFDA5001F2CDB /* ParkingPoint.m */,
+			);
+			path = gpxapi;
+			sourceTree = "<group>";
+		};
 		E12487C815566C8800D1EB99 = {
 			isa = PBXGroup;
 			children = (
@@ -491,31 +508,14 @@
 			children = (
 				E1BAC908156F79A700C9A744 /* CONSTANTS.h */,
 				E1BAC909156F79A700C9A744 /* DataEnvironment.h */,
+				E11B807016EFFDA5001F2CDB /* gpxapi */,
 				E1BAC90A156F79A700C9A744 /* DataEnvironment.m */,
-				E1BAC912156F79A700C9A744 /* gpx-api */,
 				E1BAC91D156F79A700C9A744 /* SINGLETONGCD.h */,
 				E1BAC91E156F79A700C9A744 /* Utility.h */,
 				E1BAC91F156F79A700C9A744 /* Utility.m */,
 			);
 			name = Support;
 			path = Class/Support;
-			sourceTree = "<group>";
-		};
-		E1BAC912156F79A700C9A744 /* gpx-api */ = {
-			isa = PBXGroup;
-			children = (
-				E1BAC913156F79A700C9A744 /* GPX+ParkingPoint.h */,
-				E1BAC914156F79A700C9A744 /* GPX+ParkingPoint.m */,
-				E1BAC915156F79A700C9A744 /* gpx-api.h */,
-				E1BAC916156F79A700C9A744 /* gpx-api.m */,
-				E1BAC917156F79A700C9A744 /* gpx-reader.h */,
-				E1BAC918156F79A700C9A744 /* gpx-reader.m */,
-				E1BAC919156F79A700C9A744 /* gpx-writer.h */,
-				E1BAC91A156F79A700C9A744 /* gpx-writer.m */,
-				E1BAC91B156F79A700C9A744 /* ParkingPoint.h */,
-				E1BAC91C156F79A700C9A744 /* ParkingPoint.m */,
-			);
-			path = "gpx-api";
 			sourceTree = "<group>";
 		};
 		E1BAC951156F84B500C9A744 /* Additions */ = {
@@ -961,15 +961,15 @@
 				E1BAC92B156F79A700C9A744 /* RootViewController.m in Sources */,
 				E1BAC92C156F79A700C9A744 /* SuggestViewController.m in Sources */,
 				E1BAC92D156F79A700C9A744 /* DataEnvironment.m in Sources */,
-				E1BAC931156F79A700C9A744 /* GPX+ParkingPoint.m in Sources */,
-				E1BAC932156F79A700C9A744 /* gpx-api.m in Sources */,
-				E1BAC933156F79A700C9A744 /* gpx-reader.m in Sources */,
-				E1BAC934156F79A700C9A744 /* gpx-writer.m in Sources */,
-				E1BAC935156F79A700C9A744 /* ParkingPoint.m in Sources */,
 				E1BAC936156F79A700C9A744 /* Utility.m in Sources */,
 				E1BAC958156F84B600C9A744 /* MKMapView+ZoomLevel.m in Sources */,
 				E1BAC959156F84B600C9A744 /* UIView+Addition.m in Sources */,
 				E1BAC95A156F84B600C9A744 /* UIViewController+Addition.m in Sources */,
+				E11B807B16EFFDA5001F2CDB /* GPX+ParkingPoint.m in Sources */,
+				E11B807C16EFFDA5001F2CDB /* gpx-api.m in Sources */,
+				E11B807D16EFFDA5001F2CDB /* gpx-reader.m in Sources */,
+				E11B807E16EFFDA5001F2CDB /* gpx-writer.m in Sources */,
+				E11B807F16EFFDA5001F2CDB /* ParkingPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
